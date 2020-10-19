@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón de las Guitarras - Sitio oficial</title>
+    <meta name="description" content="Bienvenido al sitio oficial del Rincón de las Guitarras, aquí encontrarás todo sobre nuestro restaurant, platos, tragos, eventos, etc.">
+    <!-- -- -- -- Google Fonts -- -- -- -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!-- -- -- -- Normalize CSS -- -- -- -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- -- -- -- Mi CSS -- -- -- -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- -- -- -- Scroll Reveal JS -- -- -- -->
+    <script src="vendor/scrollreveal.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+        </div>
+        <!-- -- -- -- El checkbox y su label los uso para hacer un menu de hamburguesa -- -- -- -->
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">
+          <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </label>
+        <nav class="navbar">
+          <a href="index.html">Inicio</a>
+          <a href="carta.html">Carta</a>
+          <a href="galeria.html">Galería</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </header>
+
+      <main>
+        <div class="block"></div>
+        <section id="reservas">
+          <div id="formulario">
+            <div>
+              <h1>Haz tu reserva</h1>
+            </div>
+            <div>
+              <form class="formulario__form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>
+                <input type="email" placeholder="E-mail" required>          
+                <div>
+                  <input type="tel" placeholder="Teléfono" required>      
+                  <input type="date" required>
+                </div>
+                <textarea placeholder="Deja tu mensaje"></textarea>
+                <a href="#">Reservar</a>
+              </form>
+            </div>
+          </div>
+        </section>
+      
+        <section id="ubicacion">
+          <h2>Ubicación</h2>
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.3718974736503!2d-71.61676348522984!3d-33.04667458089145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0d98f8c85c9%3A0xc776312a6d4564b7!2sRincon%20de%20las%20Guitarras!5e0!3m2!1ses-419!2scl!4v1593137256901!5m2!1ses-419!2scl" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="logo-footer">
+          <img src="img/logo.svg" alt="Logo">
+        </div>
+        <div class="horario">
+          <h3>Horario</h3>
+          <p>Lunes a Domingo: 12:00 a 18:00hrs.</p>
+          <p>Jueves, Viernes y Sábado: 20:00 a 4:00hrs.</p>
+        </div>
+        <div class="direccion">
+          <h3>Dirección</h3>
+          <p>Freire 431, Valparaíso</p>
+        </div>
+        <div class="telefono">
+          <h3>Teléfono</h3>
+          <p>32-2234412</p>
+        </div>
+        <div class="redes-sociales">
+          <h3>Síguenos</h3>
+          <ul>
+            <li><a href="#"><img src="icons/facebook-f-brands.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="icons/instagram-brands.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="icons/pedidos_ya.svg" alt="Pedidos Ya"></a></li>
+          </ul>
+        </div>
+        <div class="marca">
+          <h6>&copy; 1999 - El Rincón de las Guitarras</h6>
+        </div>
+      </footer>
+
+      <!-- -- -- -- Mi JS -- -- -- -->
+      <script src="js/contacto.js"></script>
+</body>
+</html>

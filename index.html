@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón de las Guitarras - Sitio oficial</title>
+    <meta name="description" content="Bienvenido al sitio oficial del Rincón de las Guitarras, aquí encontrarás todo sobre nuestro restaurant, platos, tragos, eventos, etc.">
+    <!-- -- -- -- Google Fonts -- -- -- -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!-- -- -- -- Normalize CSS -- -- -- -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- -- -- -- Mi CSS -- -- -- -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- -- -- -- Scroll Reveal JS -- -- -- -->
+    <script src="vendor/scrollreveal.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+      </div>
+      <!-- -- -- -- El checkbox y su label los uso para hacer un menu de hamburguesa -- -- -- -->
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox">
+        <div class="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </label>
+      <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="carta.html">Carta</a>
+        <a href="galeria.html">Galería</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="block"></div>
+      <section id="banner">
+        <div id="banner-contenido">
+          <p>Bienvenido a nuestro sitio oficial</p>
+          <h1>El Rincón de las Guitarras</h1>
+          <p>Gastronomía típica chilena</p>
+        </div>
+      </section>
+
+      <section id="reseña">
+        <h2 class="reseña__titulo">Sobre nosotros</h2>
+        <p class="reseña__parrafo">Somos un restaurant de comida típica chilena y de caracter casero, aquí disfrutarás de un ambiente hogareño y bohemio que, junto con nuestra comida, te haran vivir una experiencia inolvidable.</p>
+      </section>
+
+      <section id="folclore">
+        <div id="tia-lucy">
+          <img src="img/tia-lucy.jpg" alt="Lucy Briceño">
+        </div>
+        <div class="folclore__contenido" id="texto-musica">
+          <h2>Musica en vivo</h2>
+          <p>Los fines de semana podrás disfrutar el show de Lucy Briceño y los del rincón, que junto con otras agrupaciones folcloricas te harán bailar y cantar con clasicos de la cueca, tonadas, boleros, valses peruanos, y muchos más.</p>
+        </div>
+      </section>
+
+      <section id="nuestra-carta">
+        <div class="nuestra-carta__contenido" id="texto-carta">
+          <h2>Gastronomía</h2>
+          <p>Contamos con una amplia carta con platos tipicos de nuestro país que representan la imagen a través de la historia que hemos vivido, buscando así generar la cercanía de nuestros clientes a diferentes lugares de Chile. Tambien contamos con nuestros tragos, cada uno con el toque de nostalgía y calidad que representa nuestro local.</p>
+        </div>
+        <div id="imagen-carta">
+          <div id="carta-fondo">
+            <img src="img/carta-fondo.jpg" alt="Imagen de la carta">
+          </div>
+          <div id="imagen-texto">
+            <h3>Nuestra Carta</h3>
+            <p>Revisa aquí nuestra gastronomía.</p>
+            <a href="carta.html">Ver carta</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo-footer">
+        <img src="img/logo.svg" alt="Logo">
+      </div>
+      <div class="horario">
+        <h3>Horario</h3>
+        <p>Lunes a Domingo: 12:00 a 18:00hrs.</p>
+        <p>Jueves, Viernes y Sábado: 20:00 a 4:00hrs.</p>
+      </div>
+      <div class="direccion">
+        <h3>Dirección</h3>
+        <p>Freire 431, Valparaíso</p>
+      </div>
+      <div class="telefono">
+        <h3>Teléfono</h3>
+        <p>32-2234412</p>
+      </div>
+      <div class="redes-sociales">
+        <h3>Síguenos</h3>
+        <ul>
+          <li><a href="#"><img src="icons/facebook-f-brands.svg" alt="Facebook"></a></li>
+          <li><a href="#"><img src="icons/instagram-brands.svg" alt="Instagram"></a></li>
+          <li><a href="#"><img src="icons/pedidos_ya.svg" alt="Pedidos Ya"></a></li>
+        </ul>
+      </div>
+      <div class="marca">
+        <h6>&copy; 1999 - El Rincón de las Guitarras</h6>
+      </div>
+    </footer>
+    
+    <!-- -- -- -- Mi JS -- -- -- -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
